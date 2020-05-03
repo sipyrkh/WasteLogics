@@ -11,13 +11,6 @@ import static utils.PriceFunctions.parsePrice;
 
 public class MainPage extends BaseForm {
 
-    public MainPage() {
-        super(
-                By.id("myyard-contents"),
-                "Main page"
-        );
-    }
-
     private final By table = By.id("MyYardDisclosure9577009378082_frm");
     private final By company = By.xpath("//tbody[contains(@class, 'select')][2]//td[contains(@class, 'cal')][4]");
     private final By invoiceAddress = By.xpath("//tbody[contains(@class, 'select')][2]//td[contains(@class, 'cal')][5]");
@@ -26,6 +19,13 @@ public class MainPage extends BaseForm {
     private final By flatChargePrice = By.xpath("//tbody[contains(@class, '3')][2]//td[8]");
     private final By perTonnePrice = By.xpath("//tbody[contains(@class, '3')][3]//td[8]");
     private final By itemPrice = By.xpath("//tbody[contains(@class, '3')][4]//td[8]");
+
+    public MainPage() {
+        super(
+                By.id("myyard-contents"),
+                "Main page"
+        );
+    }
 
     @Step("Getting invoice model from 'Main' page")
     public Invoice getInvoice() {
