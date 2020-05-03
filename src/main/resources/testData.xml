@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>User data for age checking form</comment>
+    <entry key="company">TEST CUSTOMER</entry>
+    <entry key="invoiceAddress">TEST ADDRESS, TEST TOWN, 111111</entry>
+    <entry key="grade">Mixed Municipal Waste</entry>
+    <entry key="weight">0.460 T</entry>
+    <entry key="flatCharge">£100.00</entry>
+    <entry key="perTonne">£4.60</entry>
+    <entry key="item">110.00</entry>
+</properties>
